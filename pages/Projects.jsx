@@ -91,7 +91,7 @@ const Projects = () => {
   return (
     <>
     <Head>
-      <title>Projects | Suvangs</title>
+      <title>Projects | IshanRoy</title>
     </Head>
     <Navbar/>
     <main className='flex flex-col items-center min-h-screen py-2 relative text-white'>

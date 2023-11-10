@@ -6,7 +6,7 @@ import Contact from '@/components/Contact'
 const Achievements = () => {
   return (
     <>
-      <Head><title>Achievements | Suvangs</title></Head>
+      <Head><title>Achievements | IshanRoy</title></Head>
       <Navbar/>
       <main className='flex flex-col items-center min-h-screen py-2 relative text-white'>
 
