@@ -17,14 +17,13 @@ import {
   ButtonGroup,
   Button,
   Heading,
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  ModalCloseButton,
-  useDisclosure,
+  Stat,
+  StatLabel,
+  
+  StatNumber,
+  StatHelpText,
+  StatArrow,
+  StatGroup,
 
 } from '@chakra-ui/react' 
 import { motion } from 'framer-motion'
@@ -36,7 +35,7 @@ const Achievements = () => {
       <Head><title>Achievements | IshanRoy</title></Head>
       <Navbar/>
       <motion.section 
-        className='flex flex-row items-center justify-center w-full h-48 text-white mt-2 mb-4 bg-black bg-opacity-40'
+        className='flex flex-row items-center justify-evenly w-full h-48 text-white mt-2 mb-4 bg-black bg-opacity-40'
         variants={{
           hidden: {opacity: 0, y:75,},
           visible: {opacity: 1, y:0, },
@@ -47,10 +46,22 @@ const Achievements = () => {
         transition={{duration: 0.3, ease: "easeOut"}}
         viewport={{once:true,amount: 0.8}}
       >
+        
           <div className='flex flex-col items-center justify-center'>
               <p className='font-Raleway text-3xl font-semibold'>Achievements</p>
               <p className='font-Onest text-lg font-extralight'>Some of my Proudest Moments</p>
           </div>
+        
+        <div>
+        <Stat>
+          <StatLabel>CGPA</StatLabel>
+          <StatNumber>9.3</StatNumber>
+          <StatHelpText>
+            <StatArrow type='increase' colorScheme='cyan'/>
+            93.31%
+          </StatHelpText>
+        </Stat>
+        </div>
       </motion.section>
       <main className='flex flex-col items-center min-h-screen py-2 relative text-white'>
       <Chrono
@@ -136,6 +147,7 @@ const Achievements = () => {
           </Card>
         </>
 
+        
         <>
           <Card maxW='sm' bgColor='rgba(0,0,0,0.9)' textColor='white'>
             <CardBody colorScheme='blackAlpha'>
@@ -194,6 +206,8 @@ const Achievements = () => {
             
           </Card>
         </>
+
+        
       </Chrono>
       </main>
       <Contact/>
