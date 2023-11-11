@@ -82,7 +82,7 @@ const Achievements = () => {
               <Stack mt='6' spacing='3'>
                 <Heading size='md'>Certificate of Completion</Heading>
                 <Text>
-                  Certificate of Completion for the course "Android App Development"
+                  Certificate of Completion for the course &quot;Android App Development&quot;
                 </Text>
                 
               </Stack>
@@ -104,7 +104,7 @@ const Achievements = () => {
               <Stack mt='6' spacing='3'>
                 <Heading size='md'>Certificate of Excellence</Heading>
                 <Text>
-                  Certificate of Excellence for the course "Flutter App Development" as part of cisco thinQbator
+                  Certificate of Excellence for the course &quot;Flutter App Development&quot; as part of cisco thinQbator
                 </Text>
                 
               </Stack>
@@ -126,7 +126,7 @@ const Achievements = () => {
               <Stack mt='6' spacing='3'>
                 <Heading size='md'>Certificate of Achievement</Heading>
                 <Text>
-                  Certificate of Achievement for the course "Dart Programming For Beginners" 
+                  Certificate of Achievement for the course &quot;Dart Programming For Beginners&quot; 
                 </Text>
                 
               </Stack>
@@ -163,7 +163,7 @@ const Achievements = () => {
               <Stack mt='6' spacing='3'>
                 <Heading size='md'>Certificate of Participation</Heading>
                 <Text>
-                  Certificate of Participation for the event "Object Oriented Design Hack" 
+                  Certificate of Participation for the event &quot;Object Oriented Design Hack&quot; 
                 </Text>
                 
               </Stack>
@@ -185,7 +185,7 @@ const Achievements = () => {
               <Stack mt='6' spacing='3'>
                 <Heading size='md'>Certificate of Participation in Smart India Hackathon Internal</Heading>
                 <Text>
-                  Certificate of Participation for the event "Smart India Hackathon Internal software round"
+                  Certificate of Participation for the event &quot;Smart India Hackathon Internal software round&quot;
                 </Text>
                 
               </Stack>
