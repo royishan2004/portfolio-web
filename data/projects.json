@@ -19,5 +19,19 @@
         "ImageUrl" : "https://i.postimg.cc/2ygCs8xJ/image-2023-10-02-234629023.png",
         "Link" : "https://github.com/greeenboi/climate-hacks",
         "Featured" : false
+    },
+    {
+        "Name" : "Railway Reservation",
+        "Description" : " A Railway Reservation System made with C++",
+        "ImageUrl" : "https://i.postimg.cc/tCp226jv/vector-coloful-page-3d-model-260nw-1847272681.jpg",
+        "Link" : "https://github.com/royishan2004",
+        "Featured" : false
+    },
+    {
+        "Name" : "Quiz App",
+        "Description" : "A Quiz app made in c++",
+        "ImageUrl" : "https://i.postimg.cc/85LmbpnV/artificial-intelligence-technology-make-choices-illustration-154645445-iconl-nowm.jpg",
+        "Link" : "https://github.com/royishan2004",
+        "Featured" : false
     }
 ]
