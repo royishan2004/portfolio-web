@@ -32,7 +32,7 @@ const index = () => {
           transition={{duration: 0.3, ease: "easeOut"}}
         >
           <h1 className=' mx-4 my-4 md:my-10 font-Onest text-4xl text-gray-200'>Hello, I&apos;m <span className=' font-Pixel text_grad'>Ishan</span>, a <span className=' font-Dancing '>Student Developer</span> and a second year student at SRMIST.</h1>
-          <h3 className=' my-4 md:my-12 font-Onest text-xl font-medium mx-4 text-gray-600'>I enjoy . I also love Ice Cream.</h3>
+          <h3 className=' my-4 md:my-12 font-Onest text-xl font-medium mx-4 text-gray-600'><span className=' iceiscool hover:p-1 rounded-md transition-all hover:border-cyan-300 hover:border'>Ice</span> is cool, just like my life 😎🧊.</h3>
           <div className='flex flex-row justify-evenly items-center my-12 md:my-20 mx-6'>
             {/* <button className='shadow-md h-fit rounded-sm p-1' onClick={()=>{window.open('https://pdf.ac/1B5JKO')}}>My Resume</button> */}
             <span className='flex flex-row gap-12'>

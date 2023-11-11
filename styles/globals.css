@@ -121,6 +121,24 @@ body {
   }
 }
 
+.iceiscool{
+  background: linear-gradient(
+        to right,
+        #E0F4FF 20%,
+        #87C4FF 30%,
+        #788bff 70%,
+        #39A7FF 80%
+    );
+    width:min-content;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+
 .scrollableframe{
   scroll-behavior: smooth;
   overflow-y: scroll;
